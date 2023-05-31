@@ -7,4 +7,19 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: Juan Camilo Sánchez Urrego
     author_email: jcsu2019369@gmail.com
-    generated_timestamp: 1685565156
+    generated_timestamp: 1685565654
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
