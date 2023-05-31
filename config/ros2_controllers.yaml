@@ -25,10 +25,9 @@ right_arm_controller:
       - right_w1
       - right_w2
     command_interfaces:
-      - position
+      []
     state_interfaces:
-      - position
-      - velocity
+      []
 left_arm_controller:
   ros__parameters:
     joints:
@@ -40,7 +39,6 @@ left_arm_controller:
       - left_w1
       - left_w2
     command_interfaces:
-      - position
+      []
     state_interfaces:
-      - position
-      - velocity
+      []
