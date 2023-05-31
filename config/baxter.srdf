@@ -15,7 +15,6 @@
         <joint name="right_e0"/>
         <joint name="right_e1"/>
         <joint name="right_w0"/>
-        <joint name="right_w0_to_itb_fixed"/>
         <joint name="right_w1"/>
         <joint name="right_w2"/>
         <joint name="right_hand_fixed"/>
@@ -28,7 +27,6 @@
         <joint name="left_e0"/>
         <joint name="left_e1"/>
         <joint name="left_w0"/>
-        <joint name="left_w0_to_itb_fixed"/>
         <joint name="left_w1"/>
         <joint name="left_w2"/>
         <joint name="left_hand_fixed"/>
