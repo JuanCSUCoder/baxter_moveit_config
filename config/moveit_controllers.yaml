@@ -19,6 +19,8 @@ moveit_simple_controller_manager:
       - right_w0
       - right_w1
       - right_w2
+    action_ns: follow_joint_trajectory
+    default: true
   left_arm_controller:
     type: FollowJointTrajectory
     action_ns: follow_joint_trajectory
@@ -31,3 +33,5 @@ moveit_simple_controller_manager:
       - left_w0
       - left_w1
       - left_w2
+    action_ns: follow_joint_trajectory
+    default: true
